@@ -1,0 +1,1172 @@
+> db.movies.find({movie_name:{$eq:"Gospel of John, The"}}).pretty()
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cd"),
+        "id" : 20,
+        "movie_name" : "Gospel of John, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1989,
+        "budget" : "$18348.51"
+}
+> db.movies.find({movie_name:{$eq:"Possessed"}}).pretty()
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c5"),
+        "id" : 12,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Film-Noir",
+        "production_year" : 1993,
+        "budget" : "$16823.37"
+}
+> db.movies.find({movie_name:{$eq:"Possessed"}}).count()
+1
+db.movies.find({movie_name:{$ne:"Possessed"}}).pretty()
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ba"),
+        "id" : 1,
+        "movie_name" : "Unconditional Love",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2012,
+        "budget" : "$14873.32"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bb"),
+        "id" : 2,
+        "movie_name" : "Spawn",
+        "movie_genre" : "Action|Adventure|Sci-Fi|Thriller",
+        "production_year" : 2007,
+        "budget" : "$19574.85"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bc"),
+        "id" : 3,
+        "movie_name" : "Que Viva Mexico (¡Que Viva Mexico! - Da zdravstvuyet Meksika!)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2011,
+        "budget" : "$15114.08"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bd"),
+        "id" : 4,
+        "movie_name" : "Babylon",
+        "movie_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : "$11227.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206be"),
+        "id" : 5,
+        "movie_name" : "War of the Worlds",
+        "movie_genre" : "Action|Sci-Fi",
+        "production_year" : 1985,
+        "budget" : "$17813.20"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bf"),
+        "id" : 6,
+        "movie_name" : "Confiance règne, La",
+        "movie_genre" : "Comedy",
+        "production_year" : 1992,
+        "budget" : "$18186.58"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c0"),
+        "id" : 7,
+        "movie_name" : "Beer",
+        "movie_genre" : "Comedy",
+        "production_year" : 2008,
+        "budget" : "$15268.02"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c1"),
+        "id" : 8,
+        "movie_name" : "Tell Them Who You Are",
+        "movie_genre" : "Documentary",
+        "production_year" : 2009,
+        "budget" : "$11064.01"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c2"),
+        "id" : 9,
+        "movie_name" : "Two Loves",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : "$19855.78"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c3"),
+        "id" : 10,
+        "movie_name" : "Miss Austen Regrets",
+        "movie_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : "$16234.74"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c4"),
+        "id" : 11,
+        "movie_name" : "Killing of Sister George, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1993,
+        "budget" : "$10931.99"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c6"),
+        "id" : 13,
+        "movie_name" : "I Saw the Devil (Akmareul boatda)",
+        "movie_genre" : "Crime|Thriller",
+        "production_year" : 1985,
+        "budget" : "$10606.88"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c7"),
+        "id" : 14,
+        "movie_name" : "Deathdream (a.k.a. Dead of Night)",
+        "movie_genre" : "Horror|War",
+        "production_year" : 2006,
+        "budget" : "$13692.64"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c8"),
+        "id" : 15,
+        "movie_name" : "Don McKay",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "production_year" : 2010,
+        "budget" : "$15003.75"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c9"),
+        "id" : 16,
+        "movie_name" : "Fear Strikes Out",
+        "movie_genre" : "Drama",
+        "production_year" : 2010,
+        "budget" : "$12965.09"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ca"),
+        "id" : 17,
+        "movie_name" : "Gaslight",
+        "movie_genre" : "Drama|Thriller",
+        "production_year" : 2009,
+        "budget" : "$12930.46"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cb"),
+        "id" : 18,
+        "movie_name" : "Hoop Dreams",
+        "movie_genre" : "Documentary",
+        "production_year" : 1988,
+        "budget" : "$12358.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cc"),
+        "id" : 19,
+        "movie_name" : "Sister Street Fighter (Onna hissatsu ken)",
+        "movie_genre" : "Action|Drama",
+        "production_year" : 1994,
+        "budget" : "$13554.16"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cd"),
+        "id" : 20,
+        "movie_name" : "Gospel of John, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1989,
+        "budget" : "$18348.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ce"),
+        "id" : 21,
+        "movie_name" : "Quatermass and the Pit",
+        "movie_genre" : "Horror|Sci-Fi",
+        "production_year" : 1997,
+        "budget" : "$19386.40"
+}
+Type "it" for more
+> db.movies.find({budget:{$gt:"$9000"}},{"movie_name":1}).pretty()
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206d2"),
+        "movie_name" : "Beautiful Boxer"
+}
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb206d8"), "movie_name" : "Princesas" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206e0"),
+        "movie_name" : "Specials, The"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206e5"),
+        "movie_name" : "Strike (Stachka)"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ec"),
+        "movie_name" : "That Old Feeling"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206f9"),
+        "movie_name" : "The Land Before Time XI: Invasion of the Tinysauruses"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206fc"),
+        "movie_name" : "Ricky Gervais Live 4: Science"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2070b"),
+        "movie_name" : "The Roots of Heaven"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20710"),
+        "movie_name" : "Murders in the Zoo"
+}
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb20714"), "movie_name" : "Crooklyn" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20718"),
+        "movie_name" : "I Am a Fugitive from a Chain Gang"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20726"),
+        "movie_name" : "King's Ransom"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20732"),
+        "movie_name" : "50 Worst Movies Ever Made, The"
+}
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb20741"), "movie_name" : "Excalibur" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2074b"),
+        "movie_name" : "Cassandra's Dream"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2074d"),
+        "movie_name" : "Skeleton Key, The"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20756"),
+        "movie_name" : "Le convoyeur"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2075d"),
+        "movie_name" : "Burglars, The (Le casse)"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20762"),
+        "movie_name" : "Pickle, The"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20763"),
+        "movie_name" : "Good For Nothing"
+}
+Type "it" for more
+> db.movies.find({budget:{$lte:"$20000"}}).pretty()
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ba"),
+        "id" : 1,
+        "movie_name" : "Unconditional Love",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2012,
+        "budget" : "$14873.32"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bb"),
+        "id" : 2,
+        "movie_name" : "Spawn",
+        "movie_genre" : "Action|Adventure|Sci-Fi|Thriller",
+        "production_year" : 2007,
+        "budget" : "$19574.85"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bc"),
+        "id" : 3,
+        "movie_name" : "Que Viva Mexico (¡Que Viva Mexico! - Da zdravstvuyet Meksika!)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2011,
+        "budget" : "$15114.08"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bd"),
+        "id" : 4,
+        "movie_name" : "Babylon",
+        "movie_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : "$11227.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206be"),
+        "id" : 5,
+        "movie_name" : "War of the Worlds",
+        "movie_genre" : "Action|Sci-Fi",
+        "production_year" : 1985,
+        "budget" : "$17813.20"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bf"),
+        "id" : 6,
+        "movie_name" : "Confiance règne, La",
+        "movie_genre" : "Comedy",
+        "production_year" : 1992,
+        "budget" : "$18186.58"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c0"),
+        "id" : 7,
+        "movie_name" : "Beer",
+        "movie_genre" : "Comedy",
+        "production_year" : 2008,
+        "budget" : "$15268.02"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c1"),
+        "id" : 8,
+        "movie_name" : "Tell Them Who You Are",
+        "movie_genre" : "Documentary",
+        "production_year" : 2009,
+        "budget" : "$11064.01"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c2"),
+        "id" : 9,
+        "movie_name" : "Two Loves",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : "$19855.78"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c3"),
+        "id" : 10,
+        "movie_name" : "Miss Austen Regrets",
+        "movie_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : "$16234.74"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c4"),
+        "id" : 11,
+        "movie_name" : "Killing of Sister George, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1993,
+        "budget" : "$10931.99"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c5"),
+        "id" : 12,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Film-Noir",
+        "production_year" : 1993,
+        "budget" : "$16823.37"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c6"),
+        "id" : 13,
+        "movie_name" : "I Saw the Devil (Akmareul boatda)",
+        "movie_genre" : "Crime|Thriller",
+        "production_year" : 1985,
+        "budget" : "$10606.88"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c7"),
+        "id" : 14,
+        "movie_name" : "Deathdream (a.k.a. Dead of Night)",
+        "movie_genre" : "Horror|War",
+        "production_year" : 2006,
+        "budget" : "$13692.64"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c8"),
+        "id" : 15,
+        "movie_name" : "Don McKay",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "production_year" : 2010,
+        "budget" : "$15003.75"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c9"),
+        "id" : 16,
+        "movie_name" : "Fear Strikes Out",
+        "movie_genre" : "Drama",
+        "production_year" : 2010,
+        "budget" : "$12965.09"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ca"),
+        "id" : 17,
+        "movie_name" : "Gaslight",
+        "movie_genre" : "Drama|Thriller",
+        "production_year" : 2009,
+        "budget" : "$12930.46"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cb"),
+        "id" : 18,
+        "movie_name" : "Hoop Dreams",
+        "movie_genre" : "Documentary",
+        "production_year" : 1988,
+        "budget" : "$12358.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cc"),
+        "id" : 19,
+        "movie_name" : "Sister Street Fighter (Onna hissatsu ken)",
+        "movie_genre" : "Action|Drama",
+        "production_year" : 1994,
+        "budget" : "$13554.16"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cd"),
+        "id" : 20,
+        "movie_name" : "Gospel of John, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1989,
+        "budget" : "$18348.51"
+}
+Type "it" for more
+> db.movies.find({$or:[{production_year:{$gt:"1998"}},{budget:{$gt:"$2000"}}]}).pretty()
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206d2"),
+        "id" : 25,
+        "movie_name" : "Beautiful Boxer",
+        "movie_genre" : "Action|Drama",
+        "production_year" : 1999,
+        "budget" : "$9351.57"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206d8"),
+        "id" : 31,
+        "movie_name" : "Princesas",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : "$9656.41"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206e0"),
+        "id" : 39,
+        "movie_name" : "Specials, The",
+        "movie_genre" : "Comedy",
+        "production_year" : 1988,
+        "budget" : "$9708.74"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206e5"),
+        "id" : 44,
+        "movie_name" : "Strike (Stachka)",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : "$9103.67"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ec"),
+        "id" : 51,
+        "movie_name" : "That Old Feeling",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 2007,
+        "budget" : "$9519.90"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206f9"),
+        "id" : 64,
+        "movie_name" : "The Land Before Time XI: Invasion of the Tinysauruses",
+        "movie_genre" : "Animation|Children|Fantasy|Sci-Fi",
+        "production_year" : 1995,
+        "budget" : "$9112.02"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206fc"),
+        "id" : 67,
+        "movie_name" : "Ricky Gervais Live 4: Science",
+        "movie_genre" : "Comedy",
+        "production_year" : 1995,
+        "budget" : "$9569.79"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2070b"),
+        "id" : 82,
+        "movie_name" : "The Roots of Heaven",
+        "movie_genre" : "Adventure|Drama",
+        "production_year" : 1992,
+        "budget" : "$9927.87"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20710"),
+        "id" : 87,
+        "movie_name" : "Murders in the Zoo",
+        "movie_genre" : "Crime|Horror|Mystery",
+        "production_year" : 1997,
+        "budget" : "$9101.80"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20714"),
+        "id" : 91,
+        "movie_name" : "Crooklyn",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1993,
+        "budget" : "$9853.59"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20718"),
+        "id" : 95,
+        "movie_name" : "I Am a Fugitive from a Chain Gang",
+        "movie_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 1985,
+        "budget" : "$9390.42"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20726"),
+        "id" : 109,
+        "movie_name" : "King's Ransom",
+        "movie_genre" : "Comedy|Crime",
+        "production_year" : 1997,
+        "budget" : "$9100.11"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20732"),
+        "id" : 121,
+        "movie_name" : "50 Worst Movies Ever Made, The",
+        "movie_genre" : "Documentary",
+        "production_year" : 2002,
+        "budget" : "$9991.35"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20741"),
+        "id" : 136,
+        "movie_name" : "Excalibur",
+        "movie_genre" : "Adventure|Fantasy",
+        "production_year" : 1993,
+        "budget" : "$9122.91"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2074b"),
+        "id" : 146,
+        "movie_name" : "Cassandra's Dream",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 1988,
+        "budget" : "$9635.19"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2074d"),
+        "id" : 148,
+        "movie_name" : "Skeleton Key, The",
+        "movie_genre" : "Drama|Horror|Mystery|Thriller",
+        "production_year" : 2008,
+        "budget" : "$9602.87"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20756"),
+        "id" : 157,
+        "movie_name" : "Le convoyeur",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 2012,
+        "budget" : "$9194.01"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2075d"),
+        "id" : 164,
+        "movie_name" : "Burglars, The (Le casse)",
+        "movie_genre" : "Action|Crime|Thriller",
+        "production_year" : 2004,
+        "budget" : "$9672.46"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20762"),
+        "id" : 169,
+        "movie_name" : "Pickle, The",
+        "movie_genre" : "Comedy",
+        "production_year" : 2010,
+        "budget" : "$9675.85"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20763"),
+        "id" : 170,
+        "movie_name" : "Good For Nothing",
+        "movie_genre" : "Comedy|Western",
+        "production_year" : 2010,
+        "budget" : "$9303.88"
+}
+Type "it" for more
+> db.movies.find({$nor:[{production_year:{$gt:"1998"}},{budget:{$gt:"$2000"}}]}).pretty()
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ba"),
+        "id" : 1,
+        "movie_name" : "Unconditional Love",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2012,
+        "budget" : "$14873.32"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bb"),
+        "id" : 2,
+        "movie_name" : "Spawn",
+        "movie_genre" : "Action|Adventure|Sci-Fi|Thriller",
+        "production_year" : 2007,
+        "budget" : "$19574.85"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bc"),
+        "id" : 3,
+        "movie_name" : "Que Viva Mexico (¡Que Viva Mexico! - Da zdravstvuyet Meksika!)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2011,
+        "budget" : "$15114.08"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bd"),
+        "id" : 4,
+        "movie_name" : "Babylon",
+        "movie_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : "$11227.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206be"),
+        "id" : 5,
+        "movie_name" : "War of the Worlds",
+        "movie_genre" : "Action|Sci-Fi",
+        "production_year" : 1985,
+        "budget" : "$17813.20"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bf"),
+        "id" : 6,
+        "movie_name" : "Confiance règne, La",
+        "movie_genre" : "Comedy",
+        "production_year" : 1992,
+        "budget" : "$18186.58"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c0"),
+        "id" : 7,
+        "movie_name" : "Beer",
+        "movie_genre" : "Comedy",
+        "production_year" : 2008,
+        "budget" : "$15268.02"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c1"),
+        "id" : 8,
+        "movie_name" : "Tell Them Who You Are",
+        "movie_genre" : "Documentary",
+        "production_year" : 2009,
+        "budget" : "$11064.01"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c2"),
+        "id" : 9,
+        "movie_name" : "Two Loves",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : "$19855.78"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c3"),
+        "id" : 10,
+        "movie_name" : "Miss Austen Regrets",
+        "movie_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : "$16234.74"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c4"),
+        "id" : 11,
+        "movie_name" : "Killing of Sister George, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1993,
+        "budget" : "$10931.99"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c5"),
+        "id" : 12,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Film-Noir",
+        "production_year" : 1993,
+        "budget" : "$16823.37"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c6"),
+        "id" : 13,
+        "movie_name" : "I Saw the Devil (Akmareul boatda)",
+        "movie_genre" : "Crime|Thriller",
+        "production_year" : 1985,
+        "budget" : "$10606.88"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c7"),
+        "id" : 14,
+        "movie_name" : "Deathdream (a.k.a. Dead of Night)",
+        "movie_genre" : "Horror|War",
+        "production_year" : 2006,
+        "budget" : "$13692.64"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c8"),
+        "id" : 15,
+        "movie_name" : "Don McKay",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "production_year" : 2010,
+        "budget" : "$15003.75"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c9"),
+        "id" : 16,
+        "movie_name" : "Fear Strikes Out",
+        "movie_genre" : "Drama",
+        "production_year" : 2010,
+        "budget" : "$12965.09"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ca"),
+        "id" : 17,
+        "movie_name" : "Gaslight",
+        "movie_genre" : "Drama|Thriller",
+        "production_year" : 2009,
+        "budget" : "$12930.46"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cb"),
+        "id" : 18,
+        "movie_name" : "Hoop Dreams",
+        "movie_genre" : "Documentary",
+        "production_year" : 1988,
+        "budget" : "$12358.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cc"),
+        "id" : 19,
+        "movie_name" : "Sister Street Fighter (Onna hissatsu ken)",
+        "movie_genre" : "Action|Drama",
+        "production_year" : 1994,
+        "budget" : "$13554.16"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cd"),
+        "id" : 20,
+        "movie_name" : "Gospel of John, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1989,
+        "budget" : "$18348.51"
+}
+Type "it" for more
+> db.movies.find({$or:[{production_year:{$not:{$eq:"2000"}}},{budget:{$not:{$eq:"$10000"}}}]}).pretty();
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ba"),
+        "id" : 1,
+        "movie_name" : "Unconditional Love",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2012,
+        "budget" : "$14873.32"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bb"),
+        "id" : 2,
+        "movie_name" : "Spawn",
+        "movie_genre" : "Action|Adventure|Sci-Fi|Thriller",
+        "production_year" : 2007,
+        "budget" : "$19574.85"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bc"),
+        "id" : 3,
+        "movie_name" : "Que Viva Mexico (¡Que Viva Mexico! - Da zdravstvuyet Meksika!)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2011,
+        "budget" : "$15114.08"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bd"),
+        "id" : 4,
+        "movie_name" : "Babylon",
+        "movie_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : "$11227.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206be"),
+        "id" : 5,
+        "movie_name" : "War of the Worlds",
+        "movie_genre" : "Action|Sci-Fi",
+        "production_year" : 1985,
+        "budget" : "$17813.20"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206bf"),
+        "id" : 6,
+        "movie_name" : "Confiance règne, La",
+        "movie_genre" : "Comedy",
+        "production_year" : 1992,
+        "budget" : "$18186.58"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c0"),
+        "id" : 7,
+        "movie_name" : "Beer",
+        "movie_genre" : "Comedy",
+        "production_year" : 2008,
+        "budget" : "$15268.02"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c1"),
+        "id" : 8,
+        "movie_name" : "Tell Them Who You Are",
+        "movie_genre" : "Documentary",
+        "production_year" : 2009,
+        "budget" : "$11064.01"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c2"),
+        "id" : 9,
+        "movie_name" : "Two Loves",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : "$19855.78"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c3"),
+        "id" : 10,
+        "movie_name" : "Miss Austen Regrets",
+        "movie_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : "$16234.74"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c4"),
+        "id" : 11,
+        "movie_name" : "Killing of Sister George, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1993,
+        "budget" : "$10931.99"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c5"),
+        "id" : 12,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Film-Noir",
+        "production_year" : 1993,
+        "budget" : "$16823.37"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c6"),
+        "id" : 13,
+        "movie_name" : "I Saw the Devil (Akmareul boatda)",
+        "movie_genre" : "Crime|Thriller",
+        "production_year" : 1985,
+        "budget" : "$10606.88"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c7"),
+        "id" : 14,
+        "movie_name" : "Deathdream (a.k.a. Dead of Night)",
+        "movie_genre" : "Horror|War",
+        "production_year" : 2006,
+        "budget" : "$13692.64"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c8"),
+        "id" : 15,
+        "movie_name" : "Don McKay",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "production_year" : 2010,
+        "budget" : "$15003.75"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c9"),
+        "id" : 16,
+        "movie_name" : "Fear Strikes Out",
+        "movie_genre" : "Drama",
+        "production_year" : 2010,
+        "budget" : "$12965.09"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ca"),
+        "id" : 17,
+        "movie_name" : "Gaslight",
+        "movie_genre" : "Drama|Thriller",
+        "production_year" : 2009,
+        "budget" : "$12930.46"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cb"),
+        "id" : 18,
+        "movie_name" : "Hoop Dreams",
+        "movie_genre" : "Documentary",
+        "production_year" : 1988,
+        "budget" : "$12358.51"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cc"),
+        "id" : 19,
+        "movie_name" : "Sister Street Fighter (Onna hissatsu ken)",
+        "movie_genre" : "Action|Drama",
+        "production_year" : 1994,
+        "budget" : "$13554.16"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206cd"),
+        "id" : 20,
+        "movie_name" : "Gospel of John, The",
+        "movie_genre" : "Drama",
+        "production_year" : 1989,
+        "budget" : "$18348.51"
+}
+Type "it" for more
+
+> db.movies.find({"production_year":{$in:[2000,2010]}},{"movie_name":1}).pretty();
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb206c8"), "movie_name" : "Don McKay" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206c9"),
+        "movie_name" : "Fear Strikes Out"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206e5"),
+        "movie_name" : "Strike (Stachka)"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20702"),
+        "movie_name" : "Vacancy 2: The First Cut"
+}
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb2070e"), "movie_name" : "Kozara" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20739"),
+        "movie_name" : "Tristram Shandy: A Cock and Bull Story"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2073e"),
+        "movie_name" : "Dominick and Eugene"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20749"),
+        "movie_name" : "Green Butchers, The (Grønne slagtere, De)"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20762"),
+        "movie_name" : "Pickle, The"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20763"),
+        "movie_name" : "Good For Nothing"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20764"),
+        "movie_name" : "Resurrection, A"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2076c"),
+        "movie_name" : "Gojoe: Spirit War Chronicle (Gojo reisenki: Gojoe)"
+}
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb2077c"), "movie_name" : "Busting" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2077e"),
+        "movie_name" : "North Face (Nordwand)"
+}
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb2078f"), "movie_name" : "Scorned" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb207ab"),
+        "movie_name" : "Little Trip to Heaven, A"
+}
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb207bc"), "movie_name" : "Visioneers" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb207c8"),
+        "movie_name" : "Seven Year Itch, The"
+}
+{ "_id" : ObjectId("622a8f3df52bbe2b6bb207cd"), "movie_name" : "Fight Club" }
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb207d1"),
+        "movie_name" : "Jönssonligan & den svarta diamanten"
+}
+Type "it" for more
+> db.movies.find({}).sort({"production_year":-1}).pretty();
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2071b"),
+        "id" : 98,
+        "movie_name" : "Baby On Board",
+        "movie_genre" : "Comedy",
+        "production_year" : 2013,
+        "budget" : "$12165.10"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20772"),
+        "id" : 185,
+        "movie_name" : "Shades of Ray",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2013,
+        "budget" : "$11131.16"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20775"),
+        "id" : 188,
+        "movie_name" : "Ace of Aces (a.k.a. Super Ace, The) (As des as, L')",
+        "movie_genre" : "Adventure|Comedy",
+        "production_year" : 2013,
+        "budget" : "$19698.73"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb207cc"),
+        "id" : 275,
+        "movie_name" : "Good Marriage, A (Beau mariage, Le)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2013,
+        "budget" : "$16198.31"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20809"),
+        "id" : 336,
+        "movie_name" : "Suspicion",
+        "movie_genre" : "Film-Noir|Mystery|Thriller",
+        "production_year" : 2013,
+        "budget" : "$13835.78"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2089f"),
+        "id" : 486,
+        "movie_name" : "Food of the Gods, The",
+        "movie_genre" : "Horror|Sci-Fi",
+        "production_year" : 2013,
+        "budget" : "$19432.74"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ba"),
+        "id" : 1,
+        "movie_name" : "Unconditional Love",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2012,
+        "budget" : "$14873.32"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206da"),
+        "id" : 33,
+        "movie_name" : "Flame of Barbary Coast",
+        "movie_genre" : "Romance|Western",
+        "production_year" : 2012,
+        "budget" : "$16926.35"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ea"),
+        "id" : 49,
+        "movie_name" : "Billy Blazes, Esq.",
+        "movie_genre" : "Comedy|Western",
+        "production_year" : 2012,
+        "budget" : "$17092.62"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206f2"),
+        "id" : 57,
+        "movie_name" : "Strange Invaders",
+        "movie_genre" : "Animation|Comedy",
+        "production_year" : 2012,
+        "budget" : "$10921.00"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206f4"),
+        "id" : 59,
+        "movie_name" : "Electra Glide in Blue",
+        "movie_genre" : "Action|Crime",
+        "production_year" : 2012,
+        "budget" : "$16412.22"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2071e"),
+        "id" : 101,
+        "movie_name" : "Disturbing Behavior",
+        "movie_genre" : "Horror|Thriller",
+        "production_year" : 2012,
+        "budget" : "$11086.28"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20730"),
+        "id" : 119,
+        "movie_name" : "Nancy Drew: Detective",
+        "movie_genre" : "Comedy|Mystery",
+        "production_year" : 2012,
+        "budget" : "$18053.11"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20731"),
+        "id" : 120,
+        "movie_name" : "Adventures of Sebastian Cole, The",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2012,
+        "budget" : "$14177.57"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2073b"),
+        "id" : 130,
+        "movie_name" : "Shoot on Sight",
+        "movie_genre" : "Crime|Drama",
+        "production_year" : 2012,
+        "budget" : "$14851.79"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20751"),
+        "id" : 152,
+        "movie_name" : "Swimsuit Issue, The (Allt flyter)",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2012,
+        "budget" : "$14111.08"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20752"),
+        "id" : 153,
+        "movie_name" : "Monster House",
+        "movie_genre" : "Animation|Children|Fantasy|Mystery",
+        "production_year" : 2012,
+        "budget" : "$15803.76"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20756"),
+        "id" : 157,
+        "movie_name" : "Le convoyeur",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 2012,
+        "budget" : "$9194.01"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20777"),
+        "id" : 190,
+        "movie_name" : "At Midnight I'll Take Your Soul (À Meia-Noite Levarei Sua Alma)",
+        "movie_genre" : "Horror",
+        "production_year" : 2012,
+        "budget" : "$9935.48"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20796"),
+        "id" : 221,
+        "movie_name" : "Accident (Yi ngoi)",
+        "movie_genre" : "Thriller",
+        "production_year" : 2012,
+        "budget" : "$15161.27"
+}
+Type "it" for more
+> db.movies.find({}).sort({"production_year":-1}).skip(10).limit(5).pretty();
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20756"),
+        "id" : 157,
+        "movie_name" : "Le convoyeur",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 2012,
+        "budget" : "$9194.01"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb20730"),
+        "id" : 119,
+        "movie_name" : "Nancy Drew: Detective",
+        "movie_genre" : "Comedy|Mystery",
+        "production_year" : 2012,
+        "budget" : "$18053.11"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206da"),
+        "id" : 33,
+        "movie_name" : "Flame of Barbary Coast",
+        "movie_genre" : "Romance|Western",
+        "production_year" : 2012,
+        "budget" : "$16926.35"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb206ba"),
+        "id" : 1,
+        "movie_name" : "Unconditional Love",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2012,
+        "budget" : "$14873.32"
+}
+{
+        "_id" : ObjectId("622a8f3df52bbe2b6bb2071e"),
+        "id" : 101,
+        "movie_name" : "Disturbing Behavior",
+        "movie_genre" : "Horror|Thriller",
+        "production_year" : 2012,
+        "budget" : "$11086.28"
+}
+>
